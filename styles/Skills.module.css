@@ -1,0 +1,11 @@
+.skill-group {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.skill {
+  display: flex;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  font-family: 'Caladea', serif;
+}

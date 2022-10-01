@@ -1,0 +1,30 @@
+.intro {
+  background: #0B192E;
+  margin-bottom: 98px;
+}
+.pre {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #BDFF00;
+  margin-bottom: 33px;
+}
+.name, 
+.role {
+  font-weight: 700;
+  font-size: 80px;
+  font-size: 80px;
+  line-height: 74px;
+  margin-bottom: 17px;
+}
+.role {
+  color: #BDFF00;
+
+}
+
+.description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  max-width: 45%;
+}
