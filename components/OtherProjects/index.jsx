@@ -49,7 +49,12 @@ const OtherProjects = () => {
             </ul>
           </div>
         </div>
-
+        {/* https://stagingaq.enyata.com/ */}
+        {/* simple video player */}
+        {/* vue image game */}
+        {/* vue3 project */}
+        {/* todo app */}
+        {/* calculator */}
       </div>
       
     </div>

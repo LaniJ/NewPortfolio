@@ -101,7 +101,7 @@ footer {
   font-weight: 400;
   font-size: 20px;
   line-height: 18px;
-  color: #FFFFFF;
+  margin-bottom: 50px;
 }
 @media (prefers-color-scheme: dark) {
   html {
@@ -122,6 +122,10 @@ footer {
   }
   .nav__menu {
     display: none;
+  }
+  .body__text {
+    font-size: 19px;
+    margin-bottom: 30px;
   }
   
 }
