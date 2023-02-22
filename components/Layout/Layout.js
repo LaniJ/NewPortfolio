@@ -3,10 +3,11 @@ import Navbar from "../Navbar/Navbar";
 
 const Layout = ({ children }) => {
   return ( 
-    <div className="content">
+    // add "bg-bkg" below
+    <div className="bg-bkg content">
       <Navbar />
       { children }
-      <Footer />
+      {/* <Footer /> */}
     </div>
    );
 }

@@ -1,21 +1,25 @@
 import arrowRight from '../../assets/icons/arrow-right.svg'
 import styles from '../../styles/Skills.module.css'
+import Image from 'next/image'
 
 import { skills } from "./data.js";
 
 const Skills = () => {
   return ( 
-    <div className={styles["skill-group"]}>
+    <ul className={styles["skill-group"]}>
 
       {skills.map(
         (skill, index) => (
-          <div className={styles.skill}  key={index}>
-            {/* <img src={arrowRight} alt="arrow right icon"/> */}
+          <li className={styles.skill}  key={index}>
+            <Image
+              src={arrowRight}
+              alt="arrow right icon" 
+            />
             <p className="skill">{skill}</p>
-          </div>
+          </li>
         )
       )}
-    </div>
+    </ul>
   );
 }
  

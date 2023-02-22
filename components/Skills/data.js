@@ -1,1 +1,1 @@
-export const skills = ['JavaScript', 'TypeScript', 'Jest', 'VueJs', 'ReactJs', 'NextJs', 'NuxtJs' ]
+export const skills = ['JavaScript', 'TypeScript', 'Vue.js', 'React.js', 'Jest',]
