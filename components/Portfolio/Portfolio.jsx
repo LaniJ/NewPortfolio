@@ -33,19 +33,6 @@ const Portfolio = () => {
         </div>
       </div>
 
-      {/* <div className={styles.project}>
-        <div className={styles.info_two}>
-          <h3>Kafene Website</h3>
-          <div className={styles['project-box']}>
-            <p className={styles['project-info']}><strong>Kafene</strong> - In a world fueled by innovation, Enyata makes it easy to transform ideas to efficient software solutions for global impact.</p>
-          </div>
-          <Link href="https://kafene.com/"><a target="_blank">VIEW PROJECT</a></Link>
-        </div>
-        <div>
-          <img className={styles.imageFlipped} src='/images/slider-7.png' alt=""/>
-        </div>
-      </div> */}
-
       <div className={styles.project}>
         <div className={styles.info_two}>
           <h3 className='text-lg font-bold'>Kafene Website</h3>

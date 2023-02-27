@@ -3,6 +3,7 @@ import Image from 'next/image'
 import About from '../components/About/About'
 import Footer from '../components/Footer/Footer'
 import Intro from '../components/Intro/Intro'
+import ContactUs from '../components/Contact/Contact'
 import Navbar from '../components/Navbar/Navbar'
 import OtherProjects from '../components/OtherProjects'
 import Portfolio from '../components/Portfolio/Portfolio'
@@ -19,7 +20,8 @@ export default function Home() {
       <Intro />
       <About />
       <Portfolio />
-      {/* <OtherProjects /> */}
+      <OtherProjects />
+      <ContactUs />
     </div>
   )
 }
