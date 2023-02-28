@@ -1,6 +1,5 @@
 import styles from '../../styles/Portfolio.module.css'
 import Enyata from '../../assets/images/enyata.png'
-import Kafene from '../../assets/images/kafene3.png'
 import Link from 'next/link';
 import Image from 'next/image'
 
@@ -20,7 +19,8 @@ const Portfolio = () => {
         <div className={styles.info_one}>
           <h3 className='text-lg font-bold'>Enyata Website</h3>
           <div className={styles['project-box']}>
-            <p className={styles['project-info']}><strong>Enyata</strong> - In a world fueled by innovation, Enyata makes it easy to transform ideas to efficient software solutions for global impact.</p>
+            <p className={styles['project-info']}>In a world fueled by innovation, Enyata makes it easy to transform ideas to efficient software solutions for global impact. Enyata is a technology company providing engineering-as-a-service solutions at scale to organizations across multiple industries.
+            </p>
             <div className={`${styles.project__image} ${styles.small__screen}`}>
               <Image
                 src={Enyata}
@@ -35,9 +35,9 @@ const Portfolio = () => {
 
       <div className={styles.project}>
         <div className={styles.info_two}>
-          <h3 className='text-lg font-bold'>Kafene Website</h3>
+          <h3 className='text-lg font-bold'>Kafene</h3>
           <div className={`${styles['project-box']} ${styles.boxFlipped}` }>
-            <p className={styles['project-info']}><strong>Kafene</strong> - In a world fueled by innovation, Enyata makes it easy to transform ideas to efficient software solutions for global impact.</p>
+            <p className={styles['project-info']}>Lease-to-own platform that helps customers make quick and easy purchases. They can buy products now, and pay by instalments.</p>
             <div className={`${styles.project__image} ${styles.imageFlipped} ${styles.kafene} ${styles.small__screen}`}></div>
             <Link href="https://kafene.com/"><a target="_blank" rel="noreferrer" className={`${styles['project-link']} ${styles.small__screen}`}>VIEW PROJECT</a></Link>
           </div>
@@ -52,7 +52,7 @@ const Portfolio = () => {
         <div className={styles.info_one}>
           <h3 className='text-lg font-bold'>Volley</h3>
           <div className={styles['project-box']}>
-            <p className={styles['project-info']}><strong>Volley</strong> - In a world fueled by innovation, Volley makes it easy to transform ideas to efficient software solutions for global impact.</p>
+            <p className={styles['project-info']}>Volley is a research solution which is aimed at helping B2B companies connect with  their prospective clients. Volley helps companies stand out from the crowd and convert more leads using research, personalization, intent signals and data.</p>
             <div className={`${styles.project__image} ${styles.small__screen} ${styles.volley}`}> </div>
             <Link href="https://volley.com/"><a target="_blank" rel="noreferrer" className={`${styles['project-link']} ${styles.small__screen}`}>VIEW PROJECT</a></Link>
           </div>

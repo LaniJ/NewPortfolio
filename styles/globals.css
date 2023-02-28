@@ -11,6 +11,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 html {
   font-size: 10px;
+  scroll-behavior: smooth;
 }
 body {
   /* background: #f2f2f2; */
