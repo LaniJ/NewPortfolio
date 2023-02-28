@@ -9,7 +9,7 @@ function MyApp({ Component, pageProps }) {
   })
   return (
     <Layout>
-      <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400;700&display=swap" rel="stylesheet"></link>
+      {/* <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400;700&display=swap" rel="stylesheet"></link> */}
       <Component {...pageProps} />
     </Layout>
   )

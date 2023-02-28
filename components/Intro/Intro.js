@@ -15,7 +15,7 @@ const Intro = () => {
       <h1 className={`${styles.name} md:text-lg`}>Lani Oluwajuyitan</h1>
       <h1 className={`${styles.name} ${styles.role}`}>I build things for the web</h1>
 
-      <p className="text-lg max-w-full md:max-w-[53%]">I am a Front-end engineer who has spent the past three years reveling in the joy of converting UI designs to pixel-perfect applications. I'm bilingual, and I love learning new languages. So it was only inevitable that I'd eventually stumble on programming languages.</p>
+      <p className="text-lg max-w-full md:max-w-[53%]">I am a Front-end engineer who has spent the past three years reveling in the joy of converting UI designs to pixel-perfect applications. I&apos;m bilingual, and I love learning new languages. So it was only inevitable that I&apos;d eventually stumble on programming languages.</p>
     </div>
    );
 }

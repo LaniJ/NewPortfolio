@@ -27,9 +27,9 @@ const Portfolio = () => {
                 alt="Enyata" 
               />
             </div>
-            <Link href="https://enyata.com/"><a target="_blank" className={`${styles['project-link']} ${styles.small__screen}`}>VIEW PROJECT</a></Link>
+            <Link href="https://enyata.com/"><a target="_blank" rel="noreferrer" className={`${styles['project-link']} ${styles.small__screen}`}>VIEW PROJECT</a></Link>
           </div>
-          <Link href="https://enyata.com/"><a target="_blank" className={`${styles['project-link']} ${styles.large__screen}`}>VIEW PROJECT</a></Link>
+          <Link href="https://enyata.com/"><a target="_blank" rel="noreferrer" className={`${styles['project-link']} ${styles.large__screen}`}>VIEW PROJECT</a></Link>
         </div>
       </div>
 
@@ -39,9 +39,9 @@ const Portfolio = () => {
           <div className={`${styles['project-box']} ${styles.boxFlipped}` }>
             <p className={styles['project-info']}><strong>Kafene</strong> - In a world fueled by innovation, Enyata makes it easy to transform ideas to efficient software solutions for global impact.</p>
             <div className={`${styles.project__image} ${styles.imageFlipped} ${styles.kafene} ${styles.small__screen}`}></div>
-            <Link href="https://kafene.com/"><a target="_blank" className={`${styles['project-link']} ${styles.small__screen}`}>VIEW PROJECT</a></Link>
+            <Link href="https://kafene.com/"><a target="_blank" rel="noreferrer" className={`${styles['project-link']} ${styles.small__screen}`}>VIEW PROJECT</a></Link>
           </div>
-          <Link href="https://kafene.com/"><a target="_blank" className={`${styles['project-link']} ${styles.large__screen}`}>VIEW PROJECT</a></Link>
+          <Link href="https://kafene.com/"><a target="_blank" rel="noreferrer" className={`${styles['project-link']} ${styles.large__screen}`}>VIEW PROJECT</a></Link>
         </div>
         <div className={`${styles.project__image} ${styles.imageFlipped} ${styles.kafene} ${styles.large__screen}`}></div>
       </div>
@@ -54,9 +54,9 @@ const Portfolio = () => {
           <div className={styles['project-box']}>
             <p className={styles['project-info']}><strong>Volley</strong> - In a world fueled by innovation, Volley makes it easy to transform ideas to efficient software solutions for global impact.</p>
             <div className={`${styles.project__image} ${styles.small__screen} ${styles.volley}`}> </div>
-            <Link href="https://volley.com/"><a target="_blank" className={`${styles['project-link']} ${styles.small__screen}`}>VIEW PROJECT</a></Link>
+            <Link href="https://volley.com/"><a target="_blank" rel="noreferrer" className={`${styles['project-link']} ${styles.small__screen}`}>VIEW PROJECT</a></Link>
           </div>
-          <Link href="https://volley.com/"><a target="_blank" className={`${styles['project-link']} ${styles.large__screen}`}>VIEW PROJECT</a></Link>
+          <Link href="https://volley.com/"><a target="_blank" rel="noreferrer" className={`${styles['project-link']} ${styles.large__screen}`}>VIEW PROJECT</a></Link>
         </div>
       </div>
     </div>

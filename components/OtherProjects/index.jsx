@@ -11,8 +11,8 @@ const OtherProjects = () => {
     <div>
       <h3 className="sectionHeader">Other Noteworthy Projects</h3>
       <div className={styles.project_section}>
-          {projectList.map(({projectName, link, cardContent}) => (
-            <div className={styles.project_card}>
+          {projectList.map(({projectName, link, cardContent}, index) => (
+            <div className={styles.project_card} key={index}>
               <div className={styles.project__card__icons}>
                 <Image
                   src={folderIcon}

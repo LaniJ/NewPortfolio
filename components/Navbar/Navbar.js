@@ -1,5 +1,6 @@
 import pageLogo from '../../assets/icons/pagelogo.svg'
 import Image from 'next/image'
+import Link from 'next/link';
 
 
 const Navbar = () => {
@@ -7,12 +8,13 @@ const Navbar = () => {
     // <nav className="flex place-items-center absolute w-full top-0 z-50" aria-label="Primary Navigation">
     <nav aria-label="Primary Navigation">
       <div className="logo w-32 sm:w-48 lg:w-56 focus:outline-none focus-visible:ring-4 ring-accent">
-        <a href="/" aria-label="Go Home" className=''>
+
+        <Link href="/" aria-label="Go Home" className=''>
           <Image
             src={pageLogo}
             alt="profile logo" 
           />
-        </a>
+        </Link>
       </div>
       <ul className="nav__menu">
         <li className="nav__menu__item">
