@@ -10,11 +10,12 @@ const Portfolio = () => {
       <p className="body__text xs:mb-5 lg:mb-20">Some projects I have worked on <span className={styles.small__screen}>:</span></p>
       
       <div className={styles.project}>
-        <div className={`${styles.project__image} ${styles.large__screen}`}>
-          <Image
+        <div className={`${styles.project__image} ${styles.large__screen} ${styles.enyata}`}>
+          {/* <Image
+            className={styles.enyata}
             src={Enyata}
             alt="Enyata" 
-          />
+          /> */}
         </div>
         <div className={styles.info_one}>
           <h3 className='text-lg font-bold'>Enyata Website</h3>
@@ -43,9 +44,9 @@ const Portfolio = () => {
           </div>
           <Link href="https://kafene.com/"><a target="_blank" rel="noreferrer" className={`${styles['project-link']} ${styles.large__screen}`}>VIEW PROJECT</a></Link>
         </div>
-        <div className={`${styles.project__image} ${styles.imageFlipped} ${styles.kafene} ${styles.large__screen}`}></div>
+        <div className={`${styles.project__image} ${styles.imageFlipped} ${styles.kafene} ${styles.large__screen} `}></div>
       </div>
-
+      {/* [@media(hover:hover)]:grayscale placeholder:hover:grayscale-0 */}
       <div className={styles.project}>
         <div className={`${styles.project__image} ${styles.large__screen} ${styles.volley}`}>
         </div>
