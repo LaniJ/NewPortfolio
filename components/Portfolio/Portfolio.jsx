@@ -11,11 +11,6 @@ const Portfolio = () => {
       
       <div className={styles.project}>
         <div className={`${styles.project__image} ${styles.large__screen} ${styles.enyata}`}>
-          {/* <Image
-            className={styles.enyata}
-            src={Enyata}
-            alt="Enyata" 
-          /> */}
         </div>
         <div className={styles.info_one}>
           <h3 className='text-lg font-bold'>Enyata Website</h3>
@@ -46,7 +41,6 @@ const Portfolio = () => {
         </div>
         <div className={`${styles.project__image} ${styles.imageFlipped} ${styles.kafene} ${styles.large__screen} `}></div>
       </div>
-      {/* [@media(hover:hover)]:grayscale placeholder:hover:grayscale-0 */}
       <div className={styles.project}>
         <div className={`${styles.project__image} ${styles.large__screen} ${styles.volley}`}>
         </div>
@@ -60,6 +54,7 @@ const Portfolio = () => {
           <Link href="https://volley.com/"><a target="_blank" rel="noreferrer" className={`${styles['project-link']} ${styles.large__screen}`}>VIEW PROJECT</a></Link>
         </div>
       </div>
+      {/* [@media(hover:hover)]:grayscale placeholder:hover:grayscale-0 */}
     </div>
    );
 }
