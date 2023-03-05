@@ -6,10 +6,12 @@ import Image from 'next/image'
 const Portfolio = () => {
   return ( 
     <div className={styles.portfolio} id="portfolio">
-      <h3 className="sectionHeader">Portfolio</h3>
-      <p className="body__text xs:mb-5 lg:mb-20">Some projects I have worked on <span className={styles.small__screen}>:</span></p>
+      <div className='fade-up'>
+        <h3 className="sectionHeader">Portfolio</h3>
+        <p className="body__text xs:mb-5 lg:mb-20">Some projects I have worked on <span className={styles.small__screen}>:</span></p>
+      </div>
       
-      <div className={styles.project}>
+      <div className={`${styles.project} fade-up`}>
         <div className={`${styles.project__image} ${styles.large__screen} ${styles.enyata}`}>
         </div>
         <div className={styles.info_one}>
@@ -29,7 +31,7 @@ const Portfolio = () => {
         </div>
       </div>
 
-      <div className={styles.project}>
+      <div className={`${styles.project} fade-up`}>
         <div className={styles.info_two}>
           <h3 className='text-lg font-bold'>Kafene</h3>
           <div className={`${styles['project-box']} ${styles.boxFlipped}` }>
@@ -41,7 +43,7 @@ const Portfolio = () => {
         </div>
         <div className={`${styles.project__image} ${styles.imageFlipped} ${styles.kafene} ${styles.large__screen} `}></div>
       </div>
-      <div className={styles.project}>
+      <div className={`${styles.project} fade-up`}>
         <div className={`${styles.project__image} ${styles.large__screen} ${styles.volley}`}>
         </div>
         <div className={styles.info_one}>

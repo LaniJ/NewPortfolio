@@ -1,22 +1,51 @@
-import Head from 'next/head'
-import Image from 'next/image'
 import About from '../components/About/About'
-import Footer from '../components/Footer/Footer'
 import Intro from '../components/Intro/Intro'
 import ContactUs from '../components/Contact/Contact'
-import Navbar from '../components/Navbar/Navbar'
 import OtherProjects from '../components/OtherProjects'
 import Portfolio from '../components/Portfolio/Portfolio'
-import styles from '../styles/Home.module.css'
+import { useEffect } from 'react'
 
 export default function Home() {
-  return (
-    <div id='parallax'>
-      {/* <h1 className={styles.title}>Homepage</h1>
-      <p className={styles.text}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur placeat maxime iusto fuga, aliquid laboriosam? Alias laudantium vero distinctio neque, nam explicabo aut eveniet dignissimos, non quia optio ipsam quod?</p>
-      <p className={styles.text}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur placeat maxime iusto fuga, aliquid laboriosam? Alias laudantium vero distinctio neque, nam explicabo aut eveniet dignissimos, non quia optio ipsam quod?</p>
-      <button className={styles.btn}>Check</button> */}
+  function fadeUpObserverCallback(elements) {
+    elements.forEach((element) => {
+      if(element.isIntersecting) {
+        element.target.classList.add('faded');
+        fadeUpObserver.unobserve(element.target);
+        element.target.addEventListener("transitionend", () => {
+          element.target.classList.remove('fade-up', 'faded')
+        }, { once: true })
+      }
+    })
+  }
+  
+  useEffect(() => {
+    
+    const fadeUpObserverOptions = {
+      threshold: .3
+    }
+    const observerCallback = (elements) => {
+      console.log('elements', elements)
+      elements.forEach((element) => {
+        if(element.isIntersecting) {
+          console.log(element)
+          element.target.classList.add('faded')
+          observer.unobserve(element.target);
+          element.target.addEventListener("transitionend", () => {
+            element.target.classList.remove('fade-up', 'faded')
+          }, { once: true })
+        }
+      })
+    }
 
+    const observer = new IntersectionObserver(observerCallback, fadeUpObserverOptions)
+
+    document.querySelectorAll('.fade-up').forEach((item) => {
+      observer.observe(item)
+    });
+  },[])
+
+  return (
+    <div>
       <Intro />
       <About />
       <Portfolio />

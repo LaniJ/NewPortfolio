@@ -3,7 +3,7 @@ import Skills from '../Skills/index'
 
 const About = () => {
   return ( 
-    <div className={styles.about} id="about">
+    <div className={`${styles.about} fade-up`} id="about">
       <div className={styles.textSection}>
         <h3 className="sectionHeader">About Me</h3>
         <p className={styles.text}>Hello! My name is Lani, an Architect turned software engineer, who  has spent the past three years reveling in the joy of converting UI designs to pixel-perfect applications.

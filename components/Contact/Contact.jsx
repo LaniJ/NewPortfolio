@@ -2,7 +2,7 @@ import styles from '../../styles/OtherProjects.module.css'
 
 const contact = () => {
   return ( 
-    <div className="flex flex-col text-center mt-40 mb-[89px]" id='contact'>
+    <div className="flex flex-col text-center mt-40 mb-[89px] fade-up" id='contact'>
       <h3 className="sectionHeader">Contact Me</h3>
       <h1 className="text-6xl font-bold">Get In Touch</h1>
         <p className="text-xl mt-20 mb-2">

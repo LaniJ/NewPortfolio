@@ -9,12 +9,10 @@ const Navbar = () => {
     <nav aria-label="Primary Navigation">
       <div className="logo w-32 sm:w-48 lg:w-56 focus:outline-none focus-visible:ring-4 ring-accent">
 
-        <Link href="/" aria-label="Go Home" className=''>
-          <Image
-            src={pageLogo}
-            alt="profile logo" 
-          />
-        </Link>
+        <Image
+          src={pageLogo}
+          alt="profile logo" 
+        />
       </div>
       <ul className="nav__menu">
         <li className="nav__menu__item">
