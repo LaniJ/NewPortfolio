@@ -104,6 +104,12 @@ footer {
   line-height: 18px;
   margin-bottom: 50px;
 }
+.lg {
+  display: block;
+}
+.sm {
+  display: none;
+}
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
@@ -121,12 +127,21 @@ footer {
   nav {
     margin-bottom: 40px;
   }
-  .nav__menu {
+  .lg {
     display: none;
+  }
+  .sm {
+    display: block;
+    border: 2px solid #bdff007a;
+    padding: 4px 25px;
+    box-sizing: border-box;
+    border-radius: 10px;
   }
   .body__text {
     font-size: 19px;
     margin-bottom: 30px;
   }
-  
+  .nav__menu__item:hover {
+    color: unset;
+  }
 }

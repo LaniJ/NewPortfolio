@@ -15,17 +15,24 @@ const Navbar = () => {
         />
       </div>
       <ul className="nav__menu">
-        <li className="nav__menu__item">
+        <li className="nav__menu__item lg">
           <a href="#about" className="p-2 focus:outline-none focus-visible:ring-2 ring-accent rounded-full transition-shadow">About</a>
         </li>
-        <li className="nav__menu__item">
+        <li className="nav__menu__item lg">
           <a href="#portfolio">Portfolio</a>
         </li>
-        <li className="nav__menu__item">
+        <li className="nav__menu__item lg">
           <a href="#contact">Contact</a>
         </li>
-        <li className="nav__menu__item">
-          <button>Resume</button>
+        <li className="nav__menu__item lg">
+          <a href="https://drive.google.com/file/d/1cZKVCp4EzfN0Eo0i1RYSQtazJxAs753x/view?usp=share_link" target="_blank">
+            <button>Resume</button>
+          </a>
+        </li>
+        <li className="nav__menu__item sm">
+          <a href="https://drive.google.com/file/d/1cZKVCp4EzfN0Eo0i1RYSQtazJxAs753x/view?usp=share_link" target="_blank">
+            <button>Resume</button>
+          </a>
         </li>
       </ul>
     </nav>
