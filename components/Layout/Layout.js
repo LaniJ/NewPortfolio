@@ -4,7 +4,7 @@ import Navbar from "../Navbar/Navbar";
 const Layout = ({ children }) => {
   return ( 
     // add "bg-bkg" below
-    <div className="bg-bkg content">
+    <div className="container">
       <Navbar />
       { children }
       {/* <Footer /> */}
