@@ -7,7 +7,7 @@ import { projectList } from './data'
 const OtherProjects = () => {
  
   return ( 
-    <div className='mb-20 fade-up'>
+    <div className='mb-20'>
       <h3 className="sectionHeader">Other Noteworthy Projects</h3>
       <div className={styles.project_section}>
         {projectList.map(({projectName, link, cardContent}, index) => (
