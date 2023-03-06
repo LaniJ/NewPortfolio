@@ -25,12 +25,12 @@ const Navbar = () => {
           <a href="#contact">Contact</a>
         </li>
         <li className="nav__menu__item lg">
-          <a href="https://drive.google.com/file/d/1cZKVCp4EzfN0Eo0i1RYSQtazJxAs753x/view?usp=share_link" target="_blank">
+          <a href="https://drive.google.com/file/d/1cZKVCp4EzfN0Eo0i1RYSQtazJxAs753x/view?usp=share_link" target="_blank" rel="noreferrer">
             <button>Resume</button>
           </a>
         </li>
         <li className="nav__menu__item sm">
-          <a href="https://drive.google.com/file/d/1cZKVCp4EzfN0Eo0i1RYSQtazJxAs753x/view?usp=share_link" target="_blank">
+          <a href="https://drive.google.com/file/d/1cZKVCp4EzfN0Eo0i1RYSQtazJxAs753x/view?usp=share_link" target="_blank" rel="noreferrer">
             <button>Resume</button>
           </a>
         </li>
