@@ -26,6 +26,11 @@ export const projectList = [
     cardContent: "Online Language school application where both tutors and learners can sign up to join classes."
   },
   {
+    projectName: "Tic-Tac-Toe",
+    link: "https://tic-tac-toe-pink-iota.vercel.app/",
+    cardContent: "Fun tic-tac-toe game for all."
+  },
+  {
     projectName: "Todo App",
     link: "https://todo-ezt5mf06k-lanij.vercel.app/",
     cardContent: "To-do Application for making lists and reminders of various kinds."
